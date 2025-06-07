@@ -19,7 +19,7 @@ The foundation of successful ML models - clean, well-prepared data:
 - **Feature Scaling:** StandardScaler, MinMaxScaler implementations
 - **Data Transformation:** Preparing datasets for optimal model performance
 
-*[📁 View Project](https://github.com/nishant-kumar22/machine_learning/blob/main/DataPreprocessing.ipynb)*
+*[📁 View Project](https://github.com/nishant-kumar22/machine_learning)*
 
 ---
 
