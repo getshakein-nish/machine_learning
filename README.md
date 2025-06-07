@@ -58,7 +58,7 @@ Predicting categorical outcomes across various domains:
 
 #### **Logistic Regression**
 - **Binary classification with probabilistic approach**
-- **Applications:** Customer behavior prediction, medical diagnosis
+- **Applications:** Customer behavior prediction
 
 #### **K-Nearest Neighbors (KNN)**
 - **Instance-based learning algorithm**
@@ -78,32 +78,82 @@ Predicting categorical outcomes across various domains:
 
 *[📁 View Classification Projects](https://github.com/nishant-kumar22/machine_learning)*
 
+---
+
+### 🔍 Clustering Algorithms
+Discovering hidden patterns and grouping similar data points without labeled data:
+
+#### **K-Means Clustering**
+- **Project:** Mall Customer Segmentation
+- **Goal:** Group customers based on spending behavior and income
+- **Techniques:** Elbow method, centroid optimization, customer profiling
+
+#### **Hierarchical Clustering**
+- **Agglomerative clustering with dendrogram analysis**
+- **Techniques:** Ward linkage, distance metrics, optimal cluster determination
+- **Applications:** Customer segmentation validation, market research
+
+**Key Concepts Covered:**
+- **Within-Cluster Sum of Squares (WCSS)** for optimal K selection
+- **Dendrogram interpretation** for hierarchical relationships
+- **Business applications** in customer analytics and market segmentation
+
+*[📁 View Clustering Projects](https://github.com/nishant-kumar22/machine_learning)*
+
+---
+
+### 🛒 Association Rule Mining
+Uncovering relationships and patterns in transactional data:
+
+#### **Apriori Algorithm**
+- **Project:** Market Basket Analysis
+- **Goal:** Discover product associations in customer purchasing behavior
+- **Techniques:** Support, confidence, and lift metrics analysis
+
+#### **Eclat Algorithm**
+- **Alternative approach to frequent itemset mining**
+- **Techniques:** Vertical database representation, intersection-based support calculation
+- **Applications:** Cross-selling strategies, inventory optimization
+
+**Key Concepts Covered:**
+- **Frequent Itemsets:** Products commonly bought together
+- **Association Rules:** "If-then" relationships in purchasing patterns
+- **Business Metrics:** Support (frequency), Confidence (reliability), Lift (strength)
+- **Market Basket Optimization:** Product placement and promotional strategies
+
+*[📁 View Association Rule Mining Projects](https://github.com/nishant-kumar22/machine_learning)*
+
 ## 🛠️ Technology Stack
 
 - **Language:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 - **Environment:** Jupyter Notebooks, Google Colab
 - **Core Libraries:**
   - **Data Manipulation:** Pandas, NumPy
-  - **Visualization:** Matplotlib, Seaborn
+  - **Visualization:** Matplotlib
   - **Machine Learning:** Scikit-learn
   - **Statistical Analysis:** SciPy, Statsmodels
+  - **Association Rules:** Apyori, pyECLAT
 
 ## 📊 Key Learning Outcomes
 
 ✅ **Data Preprocessing Mastery:** Complete pipeline from raw data to model-ready datasets  
 ✅ **Regression Expertise:** Linear to complex non-linear relationship modeling  
 ✅ **Classification Proficiency:** Binary and multi-class prediction across algorithms  
+✅ **Clustering Analysis:** Unsupervised pattern discovery and customer segmentation  
+✅ **Association Mining:** Market basket analysis and transactional pattern recognition  
 ✅ **Model Evaluation:** Cross-validation, metrics analysis, performance optimization  
 ✅ **Visualization Skills:** Clear, insightful data storytelling through plots  
 ✅ **Algorithm Comparison:** Understanding when to use specific algorithms  
+✅ **Business Applications:** Translating ML insights into actionable business strategies  
 
 ## 🚀 What's Next?
 
-- **Clustering Algorithms** (K-Means, Hierarchical)
-- **Dimensionality Reduction** (PCA, LDA)
-- **Deep Learning Fundamentals**
-- **Time Series Analysis**
-- **Natural Language Processing**
+- **Dimensionality Reduction** (PCA, LDA, t-SNE)
+- **Ensemble Methods** (Bagging, Boosting, Stacking)
+- **Deep Learning Fundamentals** (Neural Networks, CNNs)
+- **Time Series Analysis** (ARIMA, Prophet)
+- **Natural Language Processing** (Text Mining, Sentiment Analysis)
+- **Recommender Systems** (Collaborative Filtering, Content-Based)
 
 ---
 
