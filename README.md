@@ -123,16 +123,120 @@ Uncovering relationships and patterns in transactional data:
 
 *[📁 View Association Rule Mining Projects](https://github.com/nishant-kumar22/machine_learning)*
 
+---
+
+### 🔀 Dimensionality Reduction
+Simplifying complex datasets while preserving essential information:
+
+#### **Principal Component Analysis (PCA)**
+- **Project:** Feature extraction and visualization
+- **Goal:** Reduce dataset dimensions while maintaining variance
+- **Techniques:** Eigenvalue decomposition, variance explained ratio
+- **Applications:** Data visualization, noise reduction, feature extraction
+
+#### **Linear Discriminant Analysis (LDA)**
+- **Supervised dimensionality reduction**
+- **Techniques:** Maximizing class separability, discriminant functions
+- **Applications:** Classification preprocessing, feature extraction
+
+*[📁 View Dimensionality Reduction Projects](https://github.com/nishant-kumar22/machine_learning)*
+
+---
+
+### 🚀 Boosting Algorithms
+Advanced ensemble methods for improved model performance:
+
+#### **XGBoost (Extreme Gradient Boosting)**
+- **Project:** High-performance gradient boosting implementation
+- **Goal:** Achieve superior accuracy through optimized boosting
+- **Techniques:** Gradient boosting, regularization, parallel processing
+- **Applications:** Competition-winning models, production systems
+
+**Key Concepts Covered:**
+- **Gradient Boosting Framework**
+- **Tree pruning and regularization**
+- **Feature importance and selection**
+- **Hyperparameter optimization**
+
+*[📁 View Boosting Projects](https://github.com/nishant-kumar22/machine_learning)*
+
+---
+
+### 🔄 Model Selection & Validation
+Ensuring robust and reliable model performance:
+
+#### **K-Fold Cross-Validation**
+- **Robust model evaluation technique**
+- **Techniques:** Stratified K-Fold, Leave-One-Out CV
+- **Applications:** Model comparison, hyperparameter tuning
+
+#### **Grid Search & Random Search**
+- **Systematic hyperparameter optimization**
+- **Techniques:** Exhaustive search, randomized search
+- **Applications:** Finding optimal model configurations
+
+*[📁 View Model Selection Projects](https://github.com/nishant-kumar22/machine_learning)*
+
+---
+
+### 🧠 Artificial Neural Networks (ANN)
+Introduction to deep learning fundamentals:
+
+#### **Multi-Layer Perceptron**
+- **Project:** Customer churn prediction using neural networks
+- **Goal:** Build and train artificial neural networks
+- **Techniques:** Backpropagation, activation functions, dropout
+- **Applications:** Complex pattern recognition, non-linear relationships
+
+**Key Concepts Covered:**
+- **Network architecture design**
+- **Activation functions (ReLU, Sigmoid, Tanh)**
+- **Loss functions and optimizers**
+- **Regularization techniques**
+
+*[📁 View ANN Projects](https://github.com/nishant-kumar22/machine_learning)*
+
+---
+
+### 💬 Natural Language Processing
+Extracting insights from text data:
+
+#### **Text Preprocessing & Analysis**
+- **Tokenization, stemming, and lemmatization**
+- **Bag of Words and TF-IDF representations**
+- **Sentiment analysis and text classification**
+
+*[📁 View NLP Projects](https://github.com/nishant-kumar22/machine_learning)*
+
+---
+
+### 🎮 Reinforcement Learning
+Training agents through interaction and rewards:
+
+#### **Upper Confidence Bound (UCB)**
+- **Multi-armed bandit problem solution**
+- **Techniques:** Exploration vs exploitation balance
+- **Applications:** A/B testing, recommendation systems
+
+#### **Thompson Sampling**
+- **Probabilistic approach to decision making**
+- **Techniques:** Bayesian inference, Beta distributions
+- **Applications:** Online advertising, clinical trials
+
+*[📁 View Reinforcement Learning Projects](https://github.com/nishant-kumar22/machine_learning)*
+
 ## 🛠️ Technology Stack
 
 - **Language:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 - **Environment:** Jupyter Notebooks, Google Colab
 - **Core Libraries:**
   - **Data Manipulation:** Pandas, NumPy
-  - **Visualization:** Matplotlib
-  - **Machine Learning:** Scikit-learn
+  - **Visualization:** Matplotlib, Seaborn
+  - **Machine Learning:** Scikit-learn, XGBoost
+  - **Deep Learning:** TensorFlow, Keras
   - **Statistical Analysis:** SciPy, Statsmodels
   - **Association Rules:** Apyori, pyECLAT
+  - **NLP:** NLTK, spaCy
 
 ## 📊 Key Learning Outcomes
 
@@ -141,22 +245,4 @@ Uncovering relationships and patterns in transactional data:
 ✅ **Classification Proficiency:** Binary and multi-class prediction across algorithms  
 ✅ **Clustering Analysis:** Unsupervised pattern discovery and customer segmentation  
 ✅ **Association Mining:** Market basket analysis and transactional pattern recognition  
-✅ **Model Evaluation:** Cross-validation, metrics analysis, performance optimization  
-✅ **Visualization Skills:** Clear, insightful data storytelling through plots  
-✅ **Algorithm Comparison:** Understanding when to use specific algorithms  
-✅ **Business Applications:** Translating ML insights into actionable business strategies  
-
-## 🚀 What's Next?
-
-- **Dimensionality Reduction** (PCA, LDA, t-SNE)
-- **Ensemble Methods** (Bagging, Boosting, Stacking)
-- **Deep Learning Fundamentals** (Neural Networks, CNNs)
-- **Time Series Analysis** (ARIMA, Prophet)
-- **Natural Language Processing** (Text Mining, Sentiment Analysis)
-- **Recommender Systems** (Collaborative Filtering, Content-Based)
-
----
-
-*This repository represents my continuous learning journey in Machine Learning. Each project builds upon previous knowledge while exploring new concepts and real-world applications.*
-
-**⭐ Star this repo if you find it helpful for your own ML journey!**
+✅ **Dimensionality Reduction:** PCA and LDA for feature extraction
